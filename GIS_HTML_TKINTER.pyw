@@ -4,7 +4,7 @@
 # To create the CSV go into QGIS. Run an "Extract vertices" on the polygon and then run "add geometry."
 # !!!This application will fail on creating layers from other databases because the homes and cabinet layers do not have
 # standardized nomenclature.!!!
-
+#comentario_1
 import tkinter as tk
 import os, io
 import glob
@@ -1117,4 +1117,5 @@ def create_folders_if_not_exist():
         else:
             print(f"Folder '{folder_name}' already exists.")
 create_folders_if_not_exist()
+
 root.mainloop()
